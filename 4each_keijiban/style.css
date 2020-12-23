@@ -1,0 +1,98 @@
+
+header ul {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+}
+
+header ul li {
+    display: inline-block;
+    list-style: none;
+    line-height: 45px;
+    padding-right: 50px;
+    color: white;
+}
+
+.left {
+    float: left;
+    width: 70%;
+}
+
+.right {
+    float: right;
+    width: 25%;
+}
+
+h1 {
+    border-bottom: 2px solid gray;
+    border-left:  5px solid black;
+    width: 100%;
+}
+
+form {
+    background-color: #fbfbfb;
+    border : 3px #ebebeb solid;
+    width: 100%;
+    padding: 5PX;
+}
+
+form h2 {
+    border-left: 5px solid red;
+}
+
+form div {
+    padding: 5px;
+}
+
+.text,textarea{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    background: #fff;
+}
+
+.submit {
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border-bottom: solid 2px dimgray;
+}
+
+.kiji {
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    width: 100%;
+    padding: 5px; 
+    margin: 15px 0px;
+}
+
+.contents {
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+.handlename {
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.side h2, .kiji h2 {
+    border-bottom: 2px dotted gray;
+}
+
+.sub {
+    list-style: none;
+}
+
+.sub li {
+   padding-bottom: 10px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
